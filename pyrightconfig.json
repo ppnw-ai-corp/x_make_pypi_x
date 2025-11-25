@@ -1,6 +1,6 @@
-{
+﻿{
     "include": ["."],
-    "stubPath": "../typings",
+    "stubPath": "../x_make_common_x/shared_typings",
     "executionEnvironments": [
         {
             "root": ".",
@@ -11,3 +11,4 @@
     ],
     "reportMissingModuleSource": "none"
 }
+
