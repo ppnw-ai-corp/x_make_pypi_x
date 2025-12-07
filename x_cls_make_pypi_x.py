@@ -476,12 +476,22 @@ class XClsMakePypiX(BaseMake):
             message = "dist/ directory not found after build."
             raise RuntimeError(message)
 
-        files = [
+        expected_prefix = f"{self.name}-{self.version}".lower()
+        artifacts = [
             path
             for path in dist_dir.iterdir()
-            if path.name.startswith(f"{self.name}-{self.version}")
+            if path.is_file()
             and (path.suffix == ".whl" or path.name.endswith(".tar.gz"))
         ]
+        if not artifacts:
+            artifacts = [
+                *dist_dir.rglob("*.whl"),
+                *dist_dir.rglob("*.tar.gz"),
+            ]
+        preferred = [
+            path for path in artifacts if path.name.lower().startswith(expected_prefix)
+        ]
+        files = preferred or artifacts
         if not files:
             message = "No valid distribution files found. Aborting publish."
             raise RuntimeError(message)
