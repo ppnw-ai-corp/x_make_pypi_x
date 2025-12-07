@@ -26,9 +26,9 @@ if TYPE_CHECKING:
     from collections.abc import Iterable, Iterator
 
 from jsonschema import ValidationError
-
 from x_0_make_all_x.manifest import ManifestEntry, ManifestOptions
 from x_make_common_x.json_contracts import validate_payload
+
 from x_make_pypi_x.json_contracts import ERROR_SCHEMA, INPUT_SCHEMA, OUTPUT_SCHEMA
 from x_make_pypi_x.publish_flow import PublisherFactory, publish_manifest_entries
 
