@@ -1,0 +1,948 @@
+{
+  "run_id": "8a76ae7ec6d14f72a74e042f10ea20d8",
+  "started_at": "2025-12-18T21:45:57Z",
+  "inputs": {
+    "entry_count": 20,
+    "manifest_entries": [
+      {
+        "package": "x_make_cli_scaffolder_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_cli_scaffolder_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "CLI project scaffolding forge.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_cli_scaffolder_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_cli_scaffolder_x"
+        }
+      },
+      {
+        "package": "x_make_common_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_common_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Shared helpers for diagnostics, logging, environment, and subprocess control.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_common_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_common_x"
+        }
+      },
+      {
+        "package": "x_make_contract_validators_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_contract_validators_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "JSON schema validation toolkit.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_contract_validators_x",
+          "dependencies": [
+            "jsonschema>=4.21.1,<5"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_contract_validators_x"
+        }
+      },
+      {
+        "package": "x_make_copilot_cli_one_time_setup_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_copilot_cli_one_time_setup_x",
+        "ancillary": [
+          "first.txt"
+        ],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Non-interactive Copilot CLI probe that discovers Copilot Requests PATs and verifies github-copilot-cli readiness.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_copilot_cli_one_time_setup_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_copilot_cli_one_time_setup_x"
+        }
+      },
+      {
+        "package": "x_make_github_clones_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_github_clones_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Makes GitHub repository clones.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_github_clones_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_github_clones_x"
+        }
+      },
+      {
+        "package": "x_make_github_visitor_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_github_visitor_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Makes GitHub repository inspections.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_github_visitor_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_github_visitor_x"
+        }
+      },
+      {
+        "package": "x_make_gitignore_sync_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_gitignore_sync_x",
+        "ancillary": [
+          "resources/default.gitignore",
+          "README.pdf"
+        ],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Synchronise a shared .gitignore template across workspace repositories.",
+          "license_text": "Proprietary",
+          "pypi_name": "x_4357_make_gitignore_sync_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_gitignore_sync_x"
+        }
+      },
+      {
+        "package": "x_make_graphviz_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_graphviz_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Graphviz diagram builder.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_graphviz_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_graphviz_x"
+        }
+      },
+      {
+        "package": "x_make_markdown_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_markdown_x",
+        "ancillary": [
+          "/yummy/yummy.txt",
+          "/dummy/mummy/mummy.txt",
+          "/dummy/dummy.txt",
+          "dummy2.txt"
+        ],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Makes markdown.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_markdown_x",
+          "dependencies": [
+            "markdown",
+            "pdfkit"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_markdown_x"
+        }
+      },
+      {
+        "package": "x_make_mermaid_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_mermaid_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Mermaid diagram builder.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_mermaid_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_mermaid_x"
+        }
+      },
+      {
+        "package": "x_make_persistent_env_var_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_persistent_env_var_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Generic persistent environment variable setter for Windows (User scope).",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_persistent_env_var_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_persistent_env_var_x"
+        }
+      },
+      {
+        "package": "x_make_pip_updates_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_pip_updates_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Makes pip package updates.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_pip_updates_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_pip_updates_x"
+        }
+      },
+      {
+        "package": "x_make_progress_board_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_progress_board_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "PySide6 progress board launcher.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_progress_board_x",
+          "dependencies": [
+            "PySide6>=6.7,<7"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_progress_board_x"
+        }
+      },
+      {
+        "package": "x_make_py_mod_sideload_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_py_mod_sideload_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Python module sideloader.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_py_mod_sideload_x",
+          "dependencies": [
+            "jsonschema>=4.21.1,<5"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_py_mod_sideload_x"
+        }
+      },
+      {
+        "package": "x_make_py_venv_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_py_venv_x",
+        "ancillary": [
+          "README.pdf"
+        ],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Interpreter furnace that installs Python versions, forges named virtualenvs, and syncs tooling manifests for every orchestrator stage.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_py_venv_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_py_venv_x"
+        }
+      },
+      {
+        "package": "x_make_pypi_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_pypi_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Makes PyPI packages.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_pypi_x",
+          "dependencies": [
+            "markdown",
+            "pdfkit"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_pypi_x"
+        }
+      },
+      {
+        "package": "x_make_slack_dump_and_reset_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_slack_dump_and_reset_x",
+        "ancillary": [
+          "README.pdf",
+          "SECURITY.pdf",
+          "requirements.txt"
+        ],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Slack purge runner that archives channels into Change Control and optionally deletes the source history once evidence is captured.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_slack_dump_and_reset_x",
+          "dependencies": [
+            "requests>=2.31.0"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_slack_dump_and_reset_x"
+        }
+      },
+      {
+        "package": "x_make_telemetry_vector_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_telemetry_vector_x",
+        "ancillary": [
+          "README.pdf",
+          "LICENSE"
+        ],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Shared telemetry normalization utilities for the visitor constellation.",
+          "license_text": "LicenseRef-Proprietary",
+          "pypi_name": "x_4357_make_telemetry_vector_x",
+          "dependencies": [
+            "pydantic>=2.6",
+            "typing-extensions>=4.9"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_telemetry_vector_x"
+        }
+      },
+      {
+        "package": "x_make_who_is_John_Connor_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_who_is_John_Connor_x",
+        "ancillary": [
+          "README.pdf",
+          "SETUP_COPILOT_CLI.pdf"
+        ],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Helper scripts that automate the 'Who is John Connor?' Copilot CLI workflow and expose a persona vetting service adapter.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_who_is_John_Connor_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_who_is_John_Connor_x"
+        }
+      },
+      {
+        "package": "x_make_yahw_x",
+        "version": "0.20.17",
+        "pypi_name": "x_4357_make_yahw_x",
+        "ancillary": [],
+        "options_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Really simple 'Yet Another Hello World' package.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_yahw_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_yahw_x"
+        }
+      }
+    ],
+    "repo_parent_root": "C:\\x_runner_x",
+    "token_env": "TEST_PYPI_TOKEN"
+  },
+  "execution": {
+    "publisher_factory": "XClsMakePypiX"
+  },
+  "result": {
+    "status": "completed",
+    "entries": [
+      {
+        "package": "x_make_cli_scaffolder_x",
+        "distribution": "x_4357_make_cli_scaffolder_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_cli_scaffolder_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_cli_scaffolder_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "CLI project scaffolding forge.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_cli_scaffolder_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_cli_scaffolder_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_common_x",
+        "distribution": "x_4357_make_common_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_common_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_common_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Shared helpers for diagnostics, logging, environment, and subprocess control.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_common_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_common_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_contract_validators_x",
+        "distribution": "x_4357_make_contract_validators_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_contract_validators_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_contract_validators_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "JSON schema validation toolkit.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_contract_validators_x",
+          "dependencies": [
+            "jsonschema>=4.21.1,<5"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_contract_validators_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_copilot_cli_one_time_setup_x",
+        "distribution": "x_4357_make_copilot_cli_one_time_setup_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_copilot_cli_one_time_setup_x.py",
+        "ancillary_publish": [
+          "first.txt"
+        ],
+        "ancillary_manifest": [
+          "first.txt"
+        ],
+        "package_dir": "C:\\x_runner_x\\x_make_copilot_cli_one_time_setup_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Non-interactive Copilot CLI probe that discovers Copilot Requests PATs and verifies github-copilot-cli readiness.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_copilot_cli_one_time_setup_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_copilot_cli_one_time_setup_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_github_clones_x",
+        "distribution": "x_4357_make_github_clones_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_github_clones_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_github_clones_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Makes GitHub repository clones.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_github_clones_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_github_clones_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_github_visitor_x",
+        "distribution": "x_4357_make_github_visitor_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_github_visitor_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_github_visitor_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Makes GitHub repository inspections.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_github_visitor_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_github_visitor_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_gitignore_sync_x",
+        "distribution": "x_4357_make_gitignore_sync_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_gitignore_sync_x.py",
+        "ancillary_publish": [
+          "README.pdf"
+        ],
+        "ancillary_manifest": [
+          "resources/default.gitignore",
+          "README.pdf"
+        ],
+        "package_dir": "C:\\x_runner_x\\x_make_gitignore_sync_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Synchronise a shared .gitignore template across workspace repositories.",
+          "license_text": "Proprietary",
+          "pypi_name": "x_4357_make_gitignore_sync_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_gitignore_sync_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_graphviz_x",
+        "distribution": "x_4357_make_graphviz_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_graphviz_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_graphviz_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Graphviz diagram builder.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_graphviz_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_graphviz_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_markdown_x",
+        "distribution": "x_4357_make_markdown_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_markdown_x.py",
+        "ancillary_publish": [
+          "dummy/dummy.txt",
+          "dummy/mummy/mummy.txt",
+          "dummy2.txt",
+          "yummy/yummy.txt"
+        ],
+        "ancillary_manifest": [
+          "/yummy/yummy.txt",
+          "/dummy/mummy/mummy.txt",
+          "/dummy/dummy.txt",
+          "dummy2.txt"
+        ],
+        "package_dir": "C:\\x_runner_x\\x_make_markdown_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Makes markdown.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_markdown_x",
+          "dependencies": [
+            "markdown",
+            "pdfkit"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_markdown_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_mermaid_x",
+        "distribution": "x_4357_make_mermaid_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_mermaid_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_mermaid_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Mermaid diagram builder.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_mermaid_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_mermaid_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_persistent_env_var_x",
+        "distribution": "x_4357_make_persistent_env_var_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_persistent_env_var_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_persistent_env_var_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Generic persistent environment variable setter for Windows (User scope).",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_persistent_env_var_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_persistent_env_var_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_pip_updates_x",
+        "distribution": "x_4357_make_pip_updates_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_pip_updates_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_pip_updates_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Makes pip package updates.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_pip_updates_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_pip_updates_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_progress_board_x",
+        "distribution": "x_4357_make_progress_board_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_progress_board_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_progress_board_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "PySide6 progress board launcher.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_progress_board_x",
+          "dependencies": [
+            "PySide6>=6.7,<7"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_progress_board_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_py_mod_sideload_x",
+        "distribution": "x_4357_make_py_mod_sideload_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_py_mod_sideload_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_py_mod_sideload_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Python module sideloader.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_py_mod_sideload_x",
+          "dependencies": [
+            "jsonschema>=4.21.1,<5"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_py_mod_sideload_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_py_venv_x",
+        "distribution": "x_4357_make_py_venv_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_py_venv_x.py",
+        "ancillary_publish": [
+          "README.pdf"
+        ],
+        "ancillary_manifest": [
+          "README.pdf"
+        ],
+        "package_dir": "C:\\x_runner_x\\x_make_py_venv_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Interpreter furnace that installs Python versions, forges named virtualenvs, and syncs tooling manifests for every orchestrator stage.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_py_venv_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_py_venv_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_pypi_x",
+        "distribution": "x_4357_make_pypi_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_pypi_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_pypi_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Makes PyPI packages.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_pypi_x",
+          "dependencies": [
+            "markdown",
+            "pdfkit"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_pypi_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_slack_dump_and_reset_x",
+        "distribution": "x_4357_make_slack_dump_and_reset_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_slack_dump_and_reset_x.py",
+        "ancillary_publish": [
+          "README.pdf",
+          "SECURITY.pdf",
+          "requirements.txt"
+        ],
+        "ancillary_manifest": [
+          "README.pdf",
+          "SECURITY.pdf",
+          "requirements.txt"
+        ],
+        "package_dir": "C:\\x_runner_x\\x_make_slack_dump_and_reset_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Slack purge runner that archives channels into Change Control and optionally deletes the source history once evidence is captured.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_slack_dump_and_reset_x",
+          "dependencies": [
+            "requests>=2.31.0"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_slack_dump_and_reset_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_telemetry_vector_x",
+        "distribution": "x_4357_make_telemetry_vector_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_telemetry_vector_x.py",
+        "ancillary_publish": [
+          "LICENSE",
+          "README.pdf"
+        ],
+        "ancillary_manifest": [
+          "README.pdf",
+          "LICENSE"
+        ],
+        "package_dir": "C:\\x_runner_x\\x_make_telemetry_vector_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Shared telemetry normalization utilities for the visitor constellation.",
+          "license_text": "LicenseRef-Proprietary",
+          "pypi_name": "x_4357_make_telemetry_vector_x",
+          "dependencies": [
+            "pydantic>=2.6",
+            "typing-extensions>=4.9"
+          ],
+          "absolute_path": "c:\\x_runner_x\\x_make_telemetry_vector_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_who_is_John_Connor_x",
+        "distribution": "x_4357_make_who_is_John_Connor_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_who_is_John_Connor_x.py",
+        "ancillary_publish": [
+          "README.pdf",
+          "SETUP_COPILOT_CLI.pdf"
+        ],
+        "ancillary_manifest": [
+          "README.pdf",
+          "SETUP_COPILOT_CLI.pdf"
+        ],
+        "package_dir": "C:\\x_runner_x\\x_make_who_is_John_Connor_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Helper scripts that automate the 'Who is John Connor?' Copilot CLI workflow and expose a persona vetting service adapter.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_who_is_John_Connor_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_who_is_John_Connor_x",
+          "force_publish": true
+        },
+        "status": "published"
+      },
+      {
+        "package": "x_make_yahw_x",
+        "distribution": "x_4357_make_yahw_x",
+        "version": "0.20.17",
+        "main_file": "x_cls_make_yahw_x.py",
+        "ancillary_publish": [],
+        "ancillary_manifest": [],
+        "package_dir": "C:\\x_runner_x\\x_make_yahw_x",
+        "safe_kwargs": {
+          "author": "RRGM (Software Tech Lead, Primus Pilus Night Watch AI Corp.)",
+          "email": "foo@bar.com",
+          "description": "Really simple 'Yet Another Hello World' package.",
+          "license_text": "MIT License (c) 2025 RRGM (Software Tech Lead of the Primus Pilus Night Watch AI Corporation)",
+          "pypi_name": "x_4357_make_yahw_x",
+          "dependencies": [],
+          "absolute_path": "c:\\x_runner_x\\x_make_yahw_x",
+          "force_publish": true
+        },
+        "status": "published"
+      }
+    ],
+    "published_versions": {
+      "x_4357_make_cli_scaffolder_x": "0.20.17",
+      "x_4357_make_common_x": "0.20.17",
+      "x_4357_make_contract_validators_x": "0.20.17",
+      "x_4357_make_copilot_cli_one_time_setup_x": "0.20.17",
+      "x_4357_make_github_clones_x": "0.20.17",
+      "x_4357_make_github_visitor_x": "0.20.17",
+      "x_4357_make_gitignore_sync_x": "0.20.17",
+      "x_4357_make_graphviz_x": "0.20.17",
+      "x_4357_make_markdown_x": "0.20.17",
+      "x_4357_make_mermaid_x": "0.20.17",
+      "x_4357_make_persistent_env_var_x": "0.20.17",
+      "x_4357_make_pip_updates_x": "0.20.17",
+      "x_4357_make_progress_board_x": "0.20.17",
+      "x_4357_make_py_mod_sideload_x": "0.20.17",
+      "x_4357_make_py_venv_x": "0.20.17",
+      "x_4357_make_pypi_x": "0.20.17",
+      "x_4357_make_slack_dump_and_reset_x": "0.20.17",
+      "x_4357_make_telemetry_vector_x": "0.20.17",
+      "x_4357_make_who_is_John_Connor_x": "0.20.17",
+      "x_4357_make_yahw_x": "0.20.17"
+    },
+    "published_artifacts": {
+      "x_4357_make_cli_scaffolder_x": {
+        "main": "x_cls_make_cli_scaffolder_x.py",
+        "anc": []
+      },
+      "x_4357_make_common_x": {
+        "main": "x_cls_make_common_x.py",
+        "anc": []
+      },
+      "x_4357_make_contract_validators_x": {
+        "main": "x_cls_make_contract_validators_x.py",
+        "anc": []
+      },
+      "x_4357_make_copilot_cli_one_time_setup_x": {
+        "main": "x_cls_make_copilot_cli_one_time_setup_x.py",
+        "anc": [
+          "first.txt"
+        ]
+      },
+      "x_4357_make_github_clones_x": {
+        "main": "x_cls_make_github_clones_x.py",
+        "anc": []
+      },
+      "x_4357_make_github_visitor_x": {
+        "main": "x_cls_make_github_visitor_x.py",
+        "anc": []
+      },
+      "x_4357_make_gitignore_sync_x": {
+        "main": "x_cls_make_gitignore_sync_x.py",
+        "anc": [
+          "README.pdf"
+        ]
+      },
+      "x_4357_make_graphviz_x": {
+        "main": "x_cls_make_graphviz_x.py",
+        "anc": []
+      },
+      "x_4357_make_markdown_x": {
+        "main": "x_cls_make_markdown_x.py",
+        "anc": [
+          "dummy/dummy.txt",
+          "dummy/mummy/mummy.txt",
+          "dummy2.txt",
+          "yummy/yummy.txt"
+        ]
+      },
+      "x_4357_make_mermaid_x": {
+        "main": "x_cls_make_mermaid_x.py",
+        "anc": []
+      },
+      "x_4357_make_persistent_env_var_x": {
+        "main": "x_cls_make_persistent_env_var_x.py",
+        "anc": []
+      },
+      "x_4357_make_pip_updates_x": {
+        "main": "x_cls_make_pip_updates_x.py",
+        "anc": []
+      },
+      "x_4357_make_progress_board_x": {
+        "main": "x_cls_make_progress_board_x.py",
+        "anc": []
+      },
+      "x_4357_make_py_mod_sideload_x": {
+        "main": "x_cls_make_py_mod_sideload_x.py",
+        "anc": []
+      },
+      "x_4357_make_py_venv_x": {
+        "main": "x_cls_make_py_venv_x.py",
+        "anc": [
+          "README.pdf"
+        ]
+      },
+      "x_4357_make_pypi_x": {
+        "main": "x_cls_make_pypi_x.py",
+        "anc": []
+      },
+      "x_4357_make_slack_dump_and_reset_x": {
+        "main": "x_cls_make_slack_dump_and_reset_x.py",
+        "anc": [
+          "README.pdf",
+          "SECURITY.pdf",
+          "requirements.txt"
+        ]
+      },
+      "x_4357_make_telemetry_vector_x": {
+        "main": "x_cls_make_telemetry_vector_x.py",
+        "anc": [
+          "LICENSE",
+          "README.pdf"
+        ]
+      },
+      "x_4357_make_who_is_John_Connor_x": {
+        "main": "x_cls_make_who_is_John_Connor_x.py",
+        "anc": [
+          "README.pdf",
+          "SETUP_COPILOT_CLI.pdf"
+        ]
+      },
+      "x_4357_make_yahw_x": {
+        "main": "x_cls_make_yahw_x.py",
+        "anc": []
+      }
+    }
+  },
+  "status": "completed",
+  "completed_at": "2025-12-18T21:46:01Z",
+  "duration_seconds": 4.644,
+  "tool": "x_make_pypi_x",
+  "generated_at": "2025-12-18T21:46:01Z"
+}
